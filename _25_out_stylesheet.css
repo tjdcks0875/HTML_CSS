@@ -1,0 +1,16 @@
+@charset "uft-8";
+
+body {
+    background-color: skyblue;
+}
+
+/*h1태그에 폰트색상
+  폰트 사이즈 지정*/
+h1 {
+    color: orange;
+    font-size: 96px;
+}
+
+p {
+    color: green;
+}

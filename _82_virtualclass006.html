@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 요소</title>
+    <style>
+      p:after{
+        content: '적용합니다';
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <!--id는 웹문서에서 유일해야 된다.
+        에러로 잡히지는 않지만 웹 접근성에 걸림-->
+    <p id="ex">:not은 특정요소를 제외한 요소에 스타일을 </p>
+    <p id="ex">:not은 특정요소를 제외한 요소에 스타일을 </p>
+    <p>:not은 특정요소를 제외한 요소에 스타일을 </p>
+</body>
+</html>
